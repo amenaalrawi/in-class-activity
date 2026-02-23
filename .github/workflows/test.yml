@@ -7,10 +7,10 @@ name: Run tests
 on:
     push:
       branches:
-        - main
+        - new-branch
     pull_request:
       branches:
-        - main
+        - new-branch
 
 jobs:
   test:
