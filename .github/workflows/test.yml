@@ -1,7 +1,3 @@
-Your tests run locally, but let's make them run with every push to your repo! You will need to create a new workflow file under the location (.github/workflows/<workflow name>.yml).
-
-Let's call the file test.yml and create the workflow such that it gets triggered with every push to the main branch.
-
 name: Run tests
 
 on:
